@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realmen Akademi - Öz Saygı</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* GENEL AYARLAR */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(180deg, #f3f4f6, #ffffff);
+            color: #333;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* HEADER */
+        header {
+            position: relative;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            clip-path: ellipse(75% 90% at 50% 0%);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        /* ANA KONTEYNER */
+        .container {
+            max-width: 1200px;
+            margin: -80px auto 50px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* BAŞLIKLAR */
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #ff7e5f;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: #333;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        /* PARAGRAFLAR */
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        /* LİSTELER */
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        ul li {
+            flex: 1 1 calc(30% - 20px);
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        ul li strong {
+            font-size: 20px;
+            color: #ff7e5f;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* BUTONLAR */
+        .btn {
+            display: inline-block;
+            background: #ff7e5f;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff5500;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #ff7e5f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* RESPONSIVE TASARIM */
+        @media (max-width: 768px) {
+            ul li {
+                flex: 1 1 100%;
+            }
+
+            header h1 {
+                font-size: 42px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Öz Saygı ve İlişkiler</h1>
+    <p>Kendi değerini bilmek, sağlıklı ilişkilerin temelidir.</p>
+</header>
+
+<div class="container">
+    <h2>Öz Saygı Nedir?</h2>
+    <p>Öz güveni tek başına ilerletebileceğin bir özellik olarak düşünmemen gerekir. Çünkü bu kapıdan içeriye adım attığın anda karşına, kendine bakışının en sağlıklı versiyonu, öz saygı çıkacak! İnsanın ilişkileri, birçok parametrenin devreye girdiği oldukça karmaşık bir olgudur. İnsan, dünyaya geldiği andan itibaren iki temel ilişki kurar: ilki kendisiyle, diğeri ise dış dünyayla olan ilişkileridir. Bu iki ilişki biçimi birbirinden çok farklı gibi görünse de aslında oldukça iç içedir. Kişinin kendisiyle kurduğu ilişkinin yapısı ve dinamikleri, genellikle bu kişinin dışarıda nasıl ilişkiler kurma eğiliminde olduğunu gösterir ve bu ilişkilerin nasıl şekilleneceğine dair önemli ipuçları verir. Kendinle kurduğun ilişki söz konusu olduğunda, bu ilişkiyi anlamaya ve tanımlamaya yardımcı olacak birçok kavram öne çıkar. Öz şefkat, öz yeterlilik, öz sevgi, öz güven ve öz saygı gibi kavramlar, kişinin kendisiyle olan ilişkisini anlamak için yol gösterici niteliktedir. Bu kavramlar, bireyin kendine ne kadar şefkatli olduğunu, kendi ihtiyaçlarını karşılamaya ne denli özenli olduğunu, kendini ne kadar sevdiğini, kendine ne kadar güvendiğini ve saygı duyduğunu tanımlar. Ayrıca, bu ilişki dinamiğinin güçlü ve zayıf yönlerini ortaya çıkarır. Kendinle kurduğun ilişkinin bir haritasını çıkarmak, hem bu ilişkinin gelişimini sağlar hem de dış dünyayla kurulan ilişkiyi şekillendiren etkenleri anlamaya yardımcı olur. Söz konusu kavramların hepsi, bireylerin ilişkilerinin yapı taşlarını oluşturur. Bu bölümde, bu yapı taşlarının en önemlilerinden biri olan öz saygı kavramı üzerinde durulacaktır. Öncelikle, öz saygı üzerine farklı tanımlamalar ve bu kavramı etkileyen faktörler tartışılacak; ardından öz saygının geliştirilmesi için atılması gereken adımlar ve öz saygının ilişkiler üzerindeki etkisi ele alınacaktır.
+</p>
+
+    <h2>Öz Saygıyı Artırma Yöntemleri</h2>
+    <ul>
+        <li><strong>Farkındalık Geliştirme</strong>Öz saygınızı etkileyen faktörleri anlamak, geliştirme sürecinin ilk adımıdır. Kendinize yönelik olumsuz düşüncelerinizi fark etmek ve bunların kökenlerini araştırmak önemlidir.</li>
+        <li><strong>Geçmiş Deneyimlerin İncelenmesi</strong>Çocukluk döneminde yaşanan deneyimler, öz saygıyı şekillendiren önemli etkenlerdir. Ebeveyn tutumlarını değerlendirmek ve bu ilişkilerin kendinize yansımasını gözlemlemek, geçmişle barış yapmanıza yardımcı olabilir.</li>
+        <li><strong>Sosyal Çevreyi Değerlendirme</strong>Etrafınızdaki insanların etkisi büyüktür. Öz saygısı düşük bireylerle zaman geçirmek, sizin de öz saygınızı zedeleyebilir. Destekleyici bir çevre oluşturmak, sağlıklı ilişkiler geliştirmek önemlidir.</li>
+        <li><strong>Kendini Kabul Etme</strong>Genetik faktörler ve bireysel farklılıklar üzerine düşünmek, kendinizi olduğunuz gibi kabul etmenizi sağlar. Bu kabullenme, gelişim için gerekli bir adımdır.</li>
+        <li><strong>Olumsuz Deneyimleri Yeniden Çerçeveleme</strong>Maruz kalınan istismar veya travmatik deneyimlerin, kişinin öz saygısına etkisini anlamak ve bu olayların kendi sorumluluğunda olmadığını fark etmek, iyileşme sürecinde kritik öneme sahiptir.</li>
+        <li><strong>Kendine Saygı Duymak</strong>Yaş, sosyal statü veya sağlık durumuna bağlı olarak kendinizi yetersiz hissetmemek önemlidir. Saygının, varoluşsal bir değer olduğunu anlamak, öz saygınızı artıracaktır.</li>
+        <li><strong>Kendi Değerlerinizi Belirleme</strong>Toplumsal normlardan bağımsız olarak kendi iç değerlerinize odaklanmak, kendinizi değerlendirme şeklinizi değiştirebilir. Bu, toplumsal baskılardan kurtulmanıza yardımcı olabilir.</li>
+        <li><strong>Başarıları Tanıma</strong>İş ve okul ortamlarında elde ettiğiniz başarıları takdir etmek, öz saygınızı artırır. Kendinizi bu başarılarla tanımlamak yerine, daha geniş bir perspektife sahip olmalısınız.</li>
+    </ul>
+    </ul>
+
+    <h3>Öz Saygının İlişkilerdeki Rolü</h3>
+    <p>Öz saygı, en temelde kendine karşı tutumu ifade eder. Öz saygının varlığı, kendini olduğun haliyle kabul etmen anlamına gelir. Adler ve Steward’a göre öz saygı, bir bireyin kendisine ne kadar değer verdiğinin, kendisini ne kadar onayladığının ve takdir ettiğinin ölçütüdür. Öz saygı uzmanı Morris Rosenberg’e göre ise öz saygı, kişinin kendisine yönelik olumlu ya da olumsuz tutum benimseme halidir. Öz saygı üzerine tanımlamalara bakıldığında, bu kavramı öz değer ve öz sevgiden bağımsız değerlendirmenin mümkün olmadığı görülmektedir. Psikolog Hanalei Vierra’ya göre de öz saygı, öz sevginin bir formu olarak değerlendirilmelidir. Kişinin gerçek karakterinin derinliklerindeki özelliklerini ve bu özelliklerin hayatına getirdiği sonuçları sevmek ve kabullenmek, ancak öz saygı ile mümkün olabilir. Bu durum, egoya ya da gerçek olmayan karaktere güvenmekten oldukça farklıdır. Ego ve yalancı karakter, kişiyi yalnızca iyi ve istenen şeyleri yaptığı zamanlarda takdir ederken öz saygı, şartsız bir kabul sunar. Kendini kabul etme hâlinin yanı sıra öz saygıyı sınır koyma becerisi olarak da tanımlayabiliriz. Öz saygı, kişinin kendi ihtiyaç ve isteklerini öncelik hâline getirmeyi öğrenmesi ve bu ihtiyaç ve istekleri karşılamak için başkalarına hayır diyebilmesi anlamına gelir. Bu perspektifi benimseyen Psikolog De’Andrea Matthews, öz saygıyı kişinin kendisine duygusal, zihinsel ve finansal olarak hizmet etmeyen şeylere gerektiğinde hayır diyebilmesi şeklinde tanımlar. Ayrıca, artık kişiye hizmet etmeyen bu faktörleri hayatından çıkarma becerisi gösterebilmek, başkalarıyla daha sağlıklı ilişkiler kurmanın da önünü açar. Öz saygı kavramının işaret ettiği önemli noktalardan biri, kendi zihninde kendin ve dış dünya arasında kurduğun dengedir. Psikolog Lisa S. Larsen, öz saygıyı kendini en az diğer insanlar kadar değerli ve önemli görmen şeklinde tanımlar. Öz saygı, kendini diğerlerinden üstün görmek anlamına gelmez; fakat diğerlerinden daha az değerli olduğun yanılgısına kapılmadığını ifade eder. Bu yönüyle öz saygı, dünyada var olmanın getirdiği hakların bilincinde olmak anlamına gelir.</p>
+    <h4>Gelişim Süreci</h4>
+    <p>Öz saygınızı geliştirirken, yukarıdaki noktalara dikkat etmek, sürecin daha sağlıklı ve etkili ilerlemesini sağlar. Unutmayın ki öz saygı, bireysel bir yolculuktur ve herkesin bu yolculukta farklı adımlar atması gerekebilir. Son olarak medya, günlük hayatında en çok maruz kaldığın hatta obsesyona yol açabilecek kadar bağımlılık geliştirdiğin alanlardan biri olabilir. Sosyal medya, televizyon ve basılı medya gibi birçok organ, her an yoğun bir bilgi aktarımıyla algını kökten şekillendirir. Sosyal medyaya her an erişim hâlinde olduğundan, nasıl görünmen ve nasıl davranman gerektiği konusunda ünlülerden, influencer’lardan ve akranlarından yoğun baskı görebilirsin. Bu kalıplara tam olarak uymanın mümkün olmaması, bireylerin kendilerine karşı saygılarının düşük olmasına ve başkalarına benzeme çabası içinde kendi benliklerini reddetmelerine yol açmaktadır. Oysaki bu baskının gerçekçi olmadığını ve bu kalıplara uymanın saygınlık getirmekten ziyade tekdüzelik ve sıradanlık getireceğini fark etmek, kişinin kendisine yönelik algısının da yeniden şekillenmesini sağlayacaktır. Öz saygını etkileyen faktörlerin farkına varmanla birlikte öz saygının neden düşük olduğuna dair farkındalık kazanabilir ve öz saygını geliştirmek için atacağın adımlara odaklanabilirsin. Kitabın bu kısmında biraz mola ver ve öz saygının düşük olma nedenlerini sırala. Şimdi devam edebilirsin. Hayatını başkalarının düşüncelerine göre ya da anlık rastgele kararlarla şekillendirmen, hayatta attığın adımlardan ve bu adımların sonuçlarından tatmin olmanı oldukça zorlaştırır. Bu doğrultuda verdiğin kararlar, garanti bir yol seçtiğini düşündürmesine rağmen sonuçlar çoğu zaman beklentinden çok farklı olmaz. Oysaki kendi değerlerin etrafında şekillendirdiğin kararlar ve adımlar, net bir amaç doğrultusunda gerçekleşir ve beklenen sonucu yaratır. Bu değerler, hayatının da her kararının ve adımının temelini oluşturur ve nasıl bir yol çizeceğine dair ipuçları verir. Sonuçların istediğin gibi olmadığı nadir durumlarda dahi büyük hayal kırıklıkları yaşamazsın ve gittiğin yoldan memnun olmanın tatminini yaşarsın. Değerler bütününe sahip olduğun takdirde, yaşayacağın bu tatmin, kendine olan saygının artmasını ve kendinle daha sağlıklı bir ilişki kurmanı sağlar. Değerlerini belirlemekten bir adım sonrası, bu değerleri hayatına ve işlerine nasıl uygulayacağına dair bir vizyon geliştirmektir. Bu vizyon, şartlara göre şekil almanı engeller. Belirlediğin değerler ışığında şekillenen vizyonun, hayatında bir yol haritası niteliği taşır. Vizyonunu yazmak, kim olduğunu ve ne istediğini anlamana, o isteğe nasıl ulaşacağına dair bir plan geliştirmene katkı sağlar. Bu kitapta bunu seninle birçok kez yapıyoruz. Bu vizyon şimdilik imkânsız ve gerçek dışı görünse bile, bir yerlere yazman, hayata geçirmenin ilk adımı olacaktır. Somut bir vizyona sahip olman, hayattaki varlığını kendi belirlediğin değerler üzerinden anlamlandırma yolunda bir adım olması sebebiyle de öz saygının temellerini oluşturur. Vizyon belirlemekten sonraki adım, bu vizyon doğrultusunda harekete geçmeden önce vizyonun içindeki önceliğinin ne olduğuna karar vermektir. Önceliğinin ne olduğunu belirlemen, büyük fikirler içinde kaybolmanın önüne geçer ve daha gerçekçi planlar yapmanın önünü açar. Ayrıca önceliklerini doğru belirlemek, ihtiyaçlarına yönelik farkındalığının artmasını sağlar ve seni ihtiyaçlarını karşılaman yönünde doğru adımlar atmaya teşvik eder. Önceliklerini belirledikten sonraki adım, bu öncelikler doğrultusunda harekete geçmektir. Belirlediğin ilk hedefi parçalara bölerek küçük adımlar hâline getirmek ve gerçekçi şekilde belirlediğin bu adımları gerçekleştirmen, kendi hayatını kendi değerlerin doğrultusunda şekillendirmeye başladığını hissettirir. Dış etkilerden uzaklaşarak kendi isteklerine odaklanman ve bu istekleri hayata geçirmen, motivasyonunu ve enerjini artıracaktır. Böylece kendini daha özgür ve kendi benliğin ile var olmuş hissedip, gelecek adımlara hevesle yaklaşabileceksin. Kendi benliğinle var olmanın ve benliğine saygı duymanın diğer bir yolu, kişisel değerlerin doğrultusunda oluşturduğun hareket planını başkalarına duyurmaktır. Planlarını başkalarıyla paylaşman, kendi değerlerini ve hedeflerini başkalarına bildirmekten çekinmediğini göstermen adına önem taşır. Bu durum, eleştirileri göze almanla birlikte destekleri de kabul etmeni içerir. Dışarıdan aldığın destek, iç gücünün artmasını sağlar ve eleştirilere ve engellere karşı daha sağlam bir duruş sergilemenin önünü açar. Her birimiz kendi içimizde gerçekten kim olduğumuz, ne hedeflediğimiz ve nasıl var olmak istediğimiz bilgisine ve bunu gerçekleştirme gücüne sahibiz. Ne var ki zaman içinde maruz kaldığın olumsuz olaylar ve durumlar, dış dünyadan gelen eleştirel ve acımasız sesleri benimsemene ve kendi zihin sesin hâline getirmene neden olur. Bu yargılayıcı sesler de çoğu zaman harekete geçmeni ve özgür hissetmeni engeller. Bu nedenle öz saygını geliştirmek için atacağın en önemli adımlardan biri, düşünce şeklini değiştirmeye yönelik pratikler geliştirmektir. Olumsuz düşünceleri değiştirmenin ilk adımı, olumsuz bir düşünceye sahip olduğunu fark etmektir. Geliştirmek için adım attığın her zayıf yön, bunu fark etmen ile başlıyor. Olumsuz düşüncelerini fark ettiğin anda, onların kendi düşüncen olmadığını ve dışarıdan dayatılmış yapay fikirler olduğunu hatırlaman, bu fikirlerden uzaklaşmanı sağlar. Bununla birlikte kendinle olumlu bir dille konuşmanı, başarılarını, sahip olduklarını ve hepsinden önce kendini takdir etmeni düşünce yapının da kökten değişmesini sağlar.</p>
+    <p>Öz saygını geliştirecek adımlardan bir diğeri, hayatı doğrusal ve hep yukarıya doğru ilerleyen bir yolculuk olarak görmemen ve tecrübenin kendisine odaklanmandır. Hayatta karşılaştığın sorunların ve engellerin sorumlusu olarak kendini görmen, kendine karşı düşmanca bir tutum benimsemene neden olur. Oysaki bu tecrübelerin hepsini bir bütün olarak, kendi yaşamını oluşturan yapboz parçaları gibi değerlendirmen, hayatta karşılaştığın iyi kötü bütün deneyimleri içselleştirerek yola devam etmeni sağlar ve öz saygının artmasına katkı sunar. Kendinle olan ilişkinin yapı taşı olan öz saygı, kendine karşı yaklaşımlarınla doğrudan alakalıdır. Dolayısıyla harekete geçmenin yanı sıra, kendine karşı davranış ve tutum değişikliği gerçekleştirmen de öz saygını doğrudan etkiler. Öz saygı kazanmak bir anda mümkün olmasa dahi, kendine karşı davranışlarını değiştirmen mümkündür. Henüz öz saygıya sahip olmadığın durumlarda bile, kendin ile ilgili söylemlerine ve kendine yönelik davranışlarına dikkat etmen, öz saygı kazanmanı kolaylaştırır. Olmayı hayal ettiğin kişi olana kadar, öyleymiş gibi davranman, değişim sürecini hızlandırır ve bir noktada gerçekten öz saygını hızla geliştirir. Duygusal ve zihinsel ihtiyaçlarını öncelik hâline getirip, onları kabullenmeyerek iyi hissetmen mümkün değildir. Bir bütün olarak tatmin olman ve kendine olumlu hisler beslemen, ancak fiziksel ihtiyaçların kadar, duygusal ve zihinsel ihtiyaçlarına da ağırlık vermenle mümkündür. İhtiyaçlarının karşılandığı ve karşılanmadığı durumları doğru keşfetmen ve buna göre aksiyon almanla, kendini baskılayan durumlardan kurtulup var olma cesareti gösterebileceksin. İnsanlar genel olarak kendi zihin yapılarını yansıtacak kişilerle birlikte olma eğilimi içerisindedir. Bu nedenle öz saygı eksikliği yaşayan bir kişinin, ona saygı duymayan ve öz saygı eksikliğini besleyecek kişilerle birlikte olması muhtemeldir. Bu tip insanlar bir döngünün içine hapsolur ve içinde bulunduğu duygu durumundan kurtulması zorlaşır. Bu durumun önüne geçmek için sınır çizmek, atılması gereken en önemli adım olarak öne çıkar. Başkalarının saygısızlığına dur diyebilmen ve kişisel sınırlarına saygı duymayan kişileri hayatından uzaklaştırman, kendi ihtiyaçlarını öncelik hâline getirdiğini gösterir ve kendine olan saygını artır. Bahsettiğim adımları atmanın yanı sıra, bu adımların üzerinde yaratacağı etkiyi gözlemlemek de öz saygınızı geliştirebilmeniz için oldukça önemlidir. Söz konusu adımlarla birlikte, tam bir dönüşüm yaşamamış olsanız bile kendinize dair olumlu hisler geliştirmeniz beklenmektedir. Eğer böyle bir sürecin ardından değişim hissetmiyorsanız, hangi ihtiyaçlarınızın karşılanmadığına odaklanmalısınız. Ayrıca, zaman içinde sahip olduğunuz değerlerde oluşabilecek değişimleri takip etmelisiniz. Kendinizi tek bir değer ya da vizyon etrafında kalmaya zorlamamalısınız. Kendi ihtiyaçlarınıza odaklanmak, kendinizle olan ilişki dinamiklerinizi dönüştürmenizi ve hayatınızın akışını takip ederek değişen beklentilerinizin farkında olmanızı sağlayacak, böylece öz saygınız gelişecektir. İnsanlarla olan ilişkilerin temeli denge ve anlaşma üzerine kuruludur. Bu durum, çoğu zaman partnerinizi dinlemeyi ve kendi hislerinizi paylaşmayı gerektiren bir alma-verme süreci olarak işlenir. Ancak birçok çift bu dengeyi koruyamaz ve ilişkideki denge bozulur. Bu durum bazen kendi şartlarını karşı tarafa kabul ettirmekte ısrarcı olmaktan kaynaklanabilir. Diğer taraftan, karşınızdaki kişinin istek ve ihtiyaçlarını görmezden gelen tavırlar, onun rahatsız hissetmesine ve sizden uzaklaşmasına neden olabilir. Diğer bir durumda ise kendi isteklerinizi yeterince ifade edemediğiniz zamanlar yaşayabilirsiniz. Bu durumda, kendi değerlerinize ters düşse bile karşınızdaki kişinin isteklerini takip eder ve kendi ihtiyaçlarınızı yok sayarsınız. Bu durumu yaşadığınızda, kalbiniz buna dayanamaz… Konumuza dönersek, genellikle öz saygı eksikliğinden kaynaklanan bu durum, öz saygınızın karşı cinsle olan ilişkinizde daha da azalmasına yol açar. Kendiniz uğruna kendi değerlerinizi ve benliğinizi hiçe saymamalısınız; en önemlisi her zaman kendiniz olmalısınız. Öz saygısı düşük olan kişiler, ilişkilerinde güvensiz hissettiklerinde kıskanç ve tedirgin davranışlar sergileyebilir. Kendinizi diğerlerinden değersiz gördüğünüz için, karşınızdaki kişinin de size değer vermediğini düşünebilirsiniz. Bu düşünceler, sizi karşı tarafın sürekli sizi üzecek davranışlarda bulunacağı beklentisine sokar. İlişki içinde kendiniz gibi olmakta zorluk yaşıyor, kendi ihtiyaçlarınızı ve isteklerinizi ifade edemeyip ikinci plana atıyor olabilirsiniz. Sürekli karşınızdaki kişinin isteklerine odaklanarak yalnızca onu memnun etmeye çalışırsınız. İlişkiniz size zarar veriyor olsa bile yalnız kalmaktan korktuğunuz için ilişkiden uzaklaşamaz, toksikliğin içinde kaybolursunuz. Sürekli onay beklentisi içine girer, partnerinizden sevgi sözcükleri duymayı beklersiniz. Öz saygınız düşük olduğunda yaşayacağınız şeyler bunlardır; kulağa ne kadar korkunç geliyor, değil mi? Öz saygısı eksikliğinin ilişkideki belirtileri göz önünde bulundurulduğunda, öz saygısı yüksek olan bireylerin ilişkilere yaklaşımları ve tavırları da kolaylıkla fark edilir. Öz saygısı yüksek bireyler, ilişkilerinde adil davranmayı bilen kişilerdir. Hem kendilerine hem de partnerlerine karşı adil olabilirler. Öz saygısı yüksek olan bireyler, partnerlerine karşı fikirlerini açıkça ifade ederken, aynı açıklıkla onları da dinleyebilirler. Bu alışverişin ardından, her iki tarafın da mutluluğundan emin oldukları bir ortam yaratırlar. Ayrıca, öz saygısı yüksek bireyler hatalarını da açık yüreklilikle kabul eder ve partnerlerine de aynı anlayış ve kabulle yaklaşırlar. Öz saygısı yüksek bireyler, ilişkilerinde gereksiz özür dilemezler. Kendi hatanız olmadığı durumlarda sıklıkla özür dilemek, karşı tarafa sürekli hatalı olduğunuz mesajını verir ve bu davranış öz saygınızı düşürür. Dolayısıyla, öz saygısı yüksek bireyler büyük bir hata yaptıklarında bile, özür dilemeden önce durumu doğru değerlendirir ve gerçekten hatalı oldukları durumlarda yeterli ölçüde özür dilerler. Unutmayın, hiçbir kişi sizi küçümsememeli! Öz saygısı yüksek bireyler, ilişkilerinde kendi değerlerinden fedakârlık etmez ve değerlerine bağlı kalmayı sürdürürler. Birini memnun etmek için sevdikleri şeylerden vazgeçmek, kendilerine olan saygılarının düşmesine neden olur. Örneğin, partnerinizle birlikte olabilmek için ailenizi, arkadaşlarınızı, inançlarınızı ya da hobilerinizi terk etmeniz, bu ilişki için kendi benliğinizden vazgeçtiğinizi gösterir. Bu nedenle, öz saygısı yüksek bireyler neyin kendileri için önemli ve vazgeçilmez olduğunu bilerek hareket eder ve sınırlarını net bir şekilde çizerler. Öz saygısı yüksek bireyler, ilişkilerini öz saygısı düşük bireylere göre daha sağlıklı ve dengeli bir şekilde yürütebildikleri gibi, ilişki içindeki problemlerle baş etme konusunda da etkin bir tutum sergilerler. Öz saygısı yüksek bireyleri problem çözme konusunda diğerlerine göre daha başarılı kılan birkaç temel adım bulunur. Bunlardan ilki, tartışmaları kibarca başlatabilme yeteneğidir. Öz saygısı yüksek bireyler, partnerleriyle bir problem yaşadıklarında ya da karşılarındaki kişide kendilerini rahatsız eden bir davranış gördüklerinde sorunu örtmek yerine açıkça konuşmayı tercih ederler. Sorunları ifade ederken şikayetlerinin ne olduğunu net bir şekilde dile getirir ve tartışma esnasında karşı tarafı suçlayıcı tavırlardan kaçınırlar. Bu bireyler, aksi bir tutumun karşı tarafın savunmacı bir tutum sergilemesine neden olacağını bildiğinden, yargılamadan şikayetlerini dile getirmeyi tercih ederler. Ayrıca, tartışma sırasında karşıdaki kişiyi değil, sorunu hedef alarak problemleri kişiselleştirmeden çözmeyi başarırlar. Tartışma sırasında gerginliğin yükselmesi, iki kişi arasındaki iletişim kanallarının kapanmasına ve tartışmanın yalnızca öfke boşaltmak için kullanılan bir araç hâline gelmesine neden olur. Bu nedenle, öz saygısı yüksek bireyler partnerleriyle tartışmalarda öfkelerini kontrol altında tutmaya özen gösterir ve karşılıklı saygının korunduğu bir ortamda problemi çözmeye çalışırlar. Öz saygısı yüksek bireyler, olumsuz cümlelerin gücünün farkındadır ve negatif iletişimi telafi edecek bir iletişim dili kurmak için çaba harcarlar. Tartışma sırasında kendi fikirlerini ifade etmenin yanı sıra, partnerlerinin söylediklerini duymanın da önemli olduğunun bilincindedirler. Bahsettiğim birçok özelliğin neticesinde öz saygısı yüksek bireyler, ilişkilerinde girdikleri tartışmaların bir kazananı olmadığının ve önemli olanın konu gereksiz uzamadan aradaki sorunu çözmek olduğunun bilincindedir. Dolayısıyla öz saygısı yüksek bireyler, istisnai durumlar dışında, karşılarındakini ikna etmeye çabalamak yerine kendilerini doğru bir şekilde anlatmayı önceliklendirirler.</p>
+
+    <a href="https://penia3001.github.io/realmen.github.io/" class="btn">Devam Et</a>
+</div>
+
+<footer>
+    <p>© 2024 Öz Saygı ve İlişkiler. Tüm Hakları Saklıdır.</p>
+</footer>
+
+</body>
+</html>
